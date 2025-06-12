@@ -21,7 +21,7 @@ DATA_STORE = "knowledge_data.json"
 DEV_PASSWORD = "fraoula123"
 
 # Replace this with your actual API key
-API_KEY = "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"
+API_KEY = st.secrets["openrouter"]["api_key"]
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
